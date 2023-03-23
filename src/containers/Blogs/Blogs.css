@@ -1,0 +1,22 @@
+.Blogs{
+  width: max-content;
+  position: absolute;
+}
+.Blogs-header{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #000;
+    z-index: 0;
+  }
+  
+#Blogs-categories{
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 3px 8px;
+    color: #fff;
+    z-index: 1;
+}
+.Blogs-cards{
+    padding: 8px;
+} 
+

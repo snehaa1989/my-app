@@ -1,3 +1,12 @@
+# React JS assignment 
+
+https://docs.google.com/document/d/1r4pP_q1AJJkzkwmbRNgSZwYEijbH6iEhSOR9UOOlUFA/edit
+
+# Additional features to be implemented
+
+1. Responsiveness
+2. Using Redux for state management.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
