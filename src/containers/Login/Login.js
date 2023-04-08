@@ -47,18 +47,19 @@ export const Login = (props) => {
       <div className="Login">
         <div className="auth-form-container">
         <img className="image-container" src="https://sploot.space/assets/images/sploot-logo.webp" alt="logo" />
+        <div className="auth-form">
             <h2>Login</h2>
             <form className="login-form" onSubmit={handleSubmit}>
                 <label htmlFor="username">username</label>
-                <input value={username} onChange={(e) => setUsername(e.target.value)} type="email" placeholder="youremail@gmail.com" id="username" name="username" />
+                <input value={username} className="username" onChange={(e) => setUsername(e.target.value)} type="email" placeholder="youremail@gmail.com" id="username" name="username" />
                 <label htmlFor="password">password</label>
-                <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
+                <input value={password} className="password" onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 <button type="submit">Log In</button>
             </form>
             <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
         </div>
+        </div>
         <div>
-        <img className="dog1" src="https://img.freepik.com/premium-photo/cute-labrador-puppy-yellow-background-wink-place-text-pet-dog-high-quality-photo_444187-299.jpg" alt="dogs" />
         </div>
       </div>
     )

@@ -18,6 +18,7 @@ import swal from 'sweetalert';
 const styles = {
   AppBar: {
     backgroundColor: yellow[600],
+    width:'100%'
   },
 };
 

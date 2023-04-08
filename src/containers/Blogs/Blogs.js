@@ -24,17 +24,17 @@ function Blogs(props) {
 
   return (
     <div className='Blogs'>
-      <div className='Blogs__header'>
+      <div className='Blogs-header'>
         {
           <ResponsiveAppBar />
         }
       </div>
-      <div className='Blogs__categories'>
+      <div className='Blogs-categories'>
         {
           <Categories setSlug = {setSlug}/>
         }
       </div>
-      <div className='Blogs__cards'>
+      <div className='Blogs-cards'>
         {
           <Cards blogs = {blogs}/>
         }
